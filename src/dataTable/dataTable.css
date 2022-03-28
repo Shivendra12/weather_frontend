@@ -1,0 +1,37 @@
+ 
+/* table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+    content: "\f0dd";
+    right: 14px!important;
+    font-size: 14px!important;
+} */
+.table-striped.dataTable thead:nth-last-child(1) {
+    display: none!important;
+}
+.dataTables_wrapper .table-bordered {
+    border: 1px solid #dcdcdc;
+    box-shadow: 0px 8px 28px -10px #6b6b6b4d;
+}
+table.table th, table.table td {
+    padding-top: 1.1rem;
+    padding-bottom: 1rem;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 0px solid #dee2e6;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dataTables_wrapper .form-group {
+    margin-bottom: 0rem !important;
+}
+
+.table-responsive{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.table tbody td img {
+  height: 100px;
+}
